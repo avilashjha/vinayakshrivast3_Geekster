@@ -1,0 +1,119 @@
+//Q1
+public class Main {
+    public static void main(String[] args) {
+        boolean ans = 40>=2*45 || 30>=2*10;
+        System.out.println(ans);
+	}
+}
+
+//Q2
+public class Main {
+    public static void main(String[] args) {
+        boolean ans= 40>3 && 20>3;
+        System.out.println(ans);
+	}
+}
+
+//Q3
+public class Main {
+    public static void main(String[] args) {
+        boolean ans= 50>7 && 30>=40;
+        System.out.println(ans);
+	}
+}
+
+//Q4
+public class Main {
+    public static void main(String[] args) {
+        boolean ans= 50<25 || 30>2;
+        System.out.println(ans);
+	}
+}
+
+//Q5
+public class Main {
+    public static void main(String[] args) {
+        boolean ans= 70<=75 || 40<=2;
+        System.out.println(ans);
+	}
+}
+
+//Q6
+public class Main {
+    public static void main(String[] args) {
+        boolean ans = !( 45==35);
+        System.out.println(ans);
+	}
+}
+
+//Q7
+public class Main {
+    public static void main(String[] args) {
+        boolean ans= (20<32 && 2!=30) && (35>=20 || 35!=25);
+        System.out.println(ans);
+	}
+}
+
+//Q8
+public class Main {
+    public static void main(String[] args) {
+        boolean ans= !(20>=30);
+        System.out.println(ans);
+	}
+}
+
+//Q9
+public class Main {
+    public static void main(String[] args) {
+        boolean ans= !(30>40);
+        System.out.println(ans);
+	}
+}
+
+//Q10
+public class Main {
+    public static void main(String[] args) {
+        boolean ans = !(40==2*20) && 75==15*5;
+        System.out.println(ans);
+	}
+}
+
+//Q11
+public class Main {
+    public static void main(String[] args) {
+        boolean ans = !(40>=40) || (50>=2*25);
+        System.out.println(ans);
+	}
+}
+
+//Q12
+public class Main {
+    public static void main(String[] args) {
+        boolean ans = !(10*5==50) || (2*3==7 || 9==28/3);
+        System.out.println(ans);
+	}
+}
+
+//Q13
+public class Main {
+    public static void main(String[] args) {
+        boolean ans = (20*5==100 || 10!=10) && (30*2==60 || 50<40);
+        System.out.println(ans);
+	}
+}
+
+//Q14
+public class Main {
+    public static void main(String[] args) {
+        boolean ans = ( !(90>=40) && !(80>36) );
+        System.out.println(ans);
+	}
+}
+
+//Q15
+public class Main {
+    public static void main(String[] args) {
+        boolean ans = ( (50>=20) || 90>2*45) && ( 30!=2*15);
+        System.out.println(ans);
+	}
+}

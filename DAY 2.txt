@@ -1,0 +1,103 @@
+//Q1
+import java.io.*; 
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+	    double pi = 3.142;
+	    Scanner sc = new Scanner(System.in);
+	    int di = sc.nextInt();
+        double area = (pi*di*di)/2;
+        int area1 = (int)area;
+	  System.out.println(area1);
+    }
+}
+
+//Q2
+import java.io.*; 
+import java.util.*;
+public class Main{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double x = sc.nextDouble();
+        double y = sc.nextDouble();
+        System.out.println(0.5*x*y);
+    }
+}
+
+//Q3
+import java.io.*; 
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int x = sc.nextInt();
+        boolean flag = x>1000;
+        System.out.println(flag);
+	}
+}
+
+//Q6
+import java.io.*; 
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        boolean ans;
+        ans = 3 > 2;
+        ans = 3 >= 3;
+        ans = 4 + 3 > 9;
+        ans = 10 + 8 > 10;
+        ans = 12 != 10;
+        ans = 13 == 13;
+        ans = 14 != 14;
+        ans = 20 == 5*4;
+        ans = 30 != 3+4-10;
+        ans = 20 == 41/2;
+        System.out.println(ans);
+	}
+}
+
+//Q7
+import java.io.*; 
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double a = sc.nextDouble();
+        double b = sc.nextDouble();
+        double c = sc.nextDouble();
+        double d = sc.nextDouble();
+        double e = sc.nextDouble();
+        double total_sum = a+b+c+d+e;
+        System.out.println(total_sum);
+        double percentage = ((total_sum/500)*100);
+        System.out.println(percentage);
+	}
+}
+
+//Q8
+import java.io.*; 
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+        int d = sc.nextInt();
+        boolean ans = a*b*c*d > 1000;
+        System.out.println(ans);
+	}
+}
+
+//Q9
+import java.io.*; 
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        boolean ans = a % 7 == 0;
+        System.out.println(ans);
+	}
+}
