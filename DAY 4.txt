@@ -1,0 +1,109 @@
+//Q1
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc = new Scanner(System.in);
+	    int a = sc.nextInt();
+	    int b = sc.nextInt();
+	    if(a>b){
+	        System.out.println(a);
+	    }
+	    else{
+	        System.out.println(b);
+	    }
+	}
+}
+
+//Q2
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc = new Scanner(System.in);
+	    int a = sc.nextInt();
+	    if(a%2 == 0){
+	        System.out.println("Even");
+	    }
+	    else{
+	        System.out.println("Odd");
+	    }
+	}
+}
+
+//Q3
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc = new Scanner(System.in);
+	    int a = sc.nextInt();
+	    if(a<500000){
+	        System.out.println("No tax to be paid");
+	    }
+	    else{
+	        System.out.println("Tax to be paid");
+	    }
+	}
+}
+
+//Q4
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc = new Scanner(System.in);
+	    int a = sc.nextInt();
+	    if(a<33){
+	        System.out.println(a+4);
+	    }
+	    else{
+	        System.out.println(a);
+	    }
+	}
+}
+
+//Q5
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc = new Scanner(System.in);
+	    int age = sc.nextInt();
+	    if(age>=70){
+	        System.out.println("Super Senior Citizen");
+	    }
+	    else if(age>=59){
+	        System.out.println("Senior Citizen");
+	    }
+	    else if(age>=18){
+	        System.out.println("Adult");
+	    }
+	    else if(age>=1){
+	        System.out.println("Underage");
+	    }
+	    else{
+	        System.out.println("New Born");
+	    }
+	}
+}
+
+//Q6
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc = new Scanner(System.in);
+	    int age = sc.nextInt();
+	    int salary = sc.nextInt();
+	    if(age>60){
+	        System.out.println(salary+1000);
+	    }
+	    else if(age>40){
+	        System.out.println(salary+500);
+	    }
+	    else{
+	        System.out.println(salary);
+	    }
+	}
+}
